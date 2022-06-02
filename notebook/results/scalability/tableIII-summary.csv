@@ -1,0 +1,7 @@
+Network Label,SRAM Usage Mbits,SRAM Usage Util,# Alt Entries Total,# Alt Entries /Node,Planning Runtime
+FT8,0.66,0.18 %,28288,484,0.426 s
+FT16,1.31,0.35 %,914432,4008,11.361 s
+FT32,7.44,2.00 %,29335552,32464,880.716 s
+BC,0.66,0.18 %,6922,369,0.203 s
+CG,1.53,0.41 %,201676,4648,2.280 s
+SL,1.97,0.53 %,636312,6521,7.100 s

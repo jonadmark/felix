@@ -1,0 +1,16 @@
+{
+    "port_bitwidth": 9,
+    "nrml_fwding_table_args_bitwidth": 20,
+    "alt_fwding_table_key_bitwidth": 26,
+    "alt_fwding_table_args_bitwidth": 9,
+    "opposite_table_key_bitwidth": 9,
+    "opposite_table_args_bitwidth": 11,
+    "state_transition_table_key_bitwidth": 26,
+    "state_transition_table_args_bitwidth": 30,
+    "n_nodes": 1280,
+    "n_edges": 16384,
+    "n_fts": 17665,
+    "ttc_normal_forwarding": 7.957078,
+    "ttc_alt_forwarding": 880.715992,
+    "ttc_merged_forwarding": 1e-06
+}

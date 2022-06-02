@@ -1,0 +1,8 @@
+{
+  "base_directory": "./networks/data/",
+  "datasets": [
+    {"name": "TopologyZoo", "directory": "2016TopologyZooUCL_inverseCapacity", "demands": [".0000", ".0001", ".0002", ".0003", ".0004"], "networks": ["Bellcanada", "Cogentco"]},
+    {"name": "DEFO", "directory": "2015DEFO", "demands": [""], "networks": ["rf1239_real_hard"]},
+    {"name": "FatTree", "directory": "FatTree", "networks": ["FatTree8", "FatTree16", "FatTree32"]}
+  ]
+}
