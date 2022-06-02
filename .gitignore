@@ -1,3 +1,9 @@
+bmv2/resources/
+bmv2/logs/
+bmv2/config/
+bmv2/build/
+bmv2/pcaps/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +133,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# macOS
+.DS_Store
+
+# Build Workload Log
+build_workload_log.json
+
+# VS Code
+.vscode
