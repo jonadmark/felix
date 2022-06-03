@@ -1,0 +1,17 @@
+{
+    "engines": ["felix", "classic"],
+    "failure_scenarios": {
+        "s1":  [{"delay": 0.100, "type": "node", "element": "s1"}],
+        "s2":  [{"delay": 0.100, "type": "node", "element": "s2"}],
+        "s3":  [{"delay": 0.100, "type": "node", "element": "s3"}],
+        "s4":  [{"delay": 0.100, "type": "node", "element": "s4"}],
+        "s5":  [{"delay": 0.100, "type": "node", "element": "s5"}],
+        "s6":  [{"delay": 0.100, "type": "node", "element": "s6"}],
+        "s7":  [{"delay": 0.100, "type": "node", "element": "s7"}],
+        "s8":  [{"delay": 0.100, "type": "node", "element": "s8"}],
+        "s9":  [{"delay": 0.100, "type": "node", "element": "s9"}],
+        "s10": [{"delay": 0.100, "type": "node", "element": "s10"}],
+        "s11": [{"delay": 0.100, "type": "node", "element": "s11"}]
+    },
+    "runs_per_failure_scenario": 5
+}

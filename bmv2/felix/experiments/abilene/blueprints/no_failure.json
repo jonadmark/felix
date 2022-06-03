@@ -1,0 +1,7 @@
+{
+    "engines": ["classic"],
+    "failure_scenarios": {
+       "normal": []
+    },
+    "runs_per_failure_scenario": 1
+}

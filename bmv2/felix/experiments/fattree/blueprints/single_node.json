@@ -1,0 +1,9 @@
+{
+    "engines": ["felix"],
+    "failure_scenarios": {
+        "s1":  [{"delay": 0.100, "type": "node", "element": "s1"}],
+        "s9":  [{"delay": 0.100, "type": "node", "element": "s9"}],
+        "s17":  [{"delay": 0.100, "type": "node", "element": "s17"}]
+    },
+    "runs_per_failure_scenario": 5
+}

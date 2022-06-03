@@ -1,0 +1,20 @@
+{
+    "engines": ["felix", "classic"],
+    "failure_scenarios": {
+        "s1-s2": [{"delay": 0.100, "type": "link", "element": ["s1", "s2"]}],
+        "s1-s3": [{"delay": 0.100, "type": "link", "element": ["s1", "s3"]}],
+        "s2-s11": [{"delay": 0.100, "type": "link", "element": ["s2", "s11"]}],
+        "s3-s10": [{"delay": 0.100, "type": "link", "element": ["s3", "s10"]}],
+        "s4-s5": [{"delay": 0.100, "type": "link", "element": ["s4", "s5"]}],
+        "s4-s7": [{"delay": 0.100, "type": "link", "element": ["s4", "s7"]}],
+        "s5-s6": [{"delay": 0.100, "type": "link", "element": ["s5", "s6"]}],
+        "s5-s7": [{"delay": 0.100, "type": "link", "element": ["s5", "s7"]}],
+        "s6-s9": [{"delay": 0.100, "type": "link", "element": ["s6", "s9"]}],
+        "s7-s8": [{"delay": 0.100, "type": "link", "element": ["s7", "s8"]}],
+        "s8-s9": [{"delay": 0.100, "type": "link", "element": ["s8", "s9"]}],
+        "s8-s11": [{"delay": 0.100, "type": "link", "element": ["s8", "s11"]}],
+        "s9-s10": [{"delay": 0.100, "type": "link", "element": ["s9", "s10"]}],
+        "s10-s11": [{"delay": 0.100, "type": "link", "element": ["s10", "s11"]}]
+    },
+    "runs_per_failure_scenario": 5
+}
